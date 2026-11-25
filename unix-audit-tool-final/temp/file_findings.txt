@@ -1,0 +1,22 @@
+HIGH|World writable file or directory|/tmp/.X11-unix|Restrict write permissions to authorized users
+MEDIUM|SUID file found|/usr/bin/passwd|Review whether elevated privileges are necessary
+MEDIUM|SUID file found|/usr/bin/chsh|Review whether elevated privileges are necessary
+MEDIUM|SUID file found|/usr/bin/fusermount3|Review whether elevated privileges are necessary
+MEDIUM|SUID file found|/usr/bin/sudo|Review whether elevated privileges are necessary
+MEDIUM|SUID file found|/usr/bin/umount|Review whether elevated privileges are necessary
+MEDIUM|SUID file found|/usr/bin/gpasswd|Review whether elevated privileges are necessary
+MEDIUM|SUID file found|/usr/bin/su|Review whether elevated privileges are necessary
+MEDIUM|SUID file found|/usr/bin/chfn|Review whether elevated privileges are necessary
+MEDIUM|SUID file found|/usr/bin/newgrp|Review whether elevated privileges are necessary
+MEDIUM|SUID file found|/usr/bin/mount|Review whether elevated privileges are necessary
+MEDIUM|SUID file found|/usr/lib/dbus-1.0/dbus-daemon-launch-helper|Review whether elevated privileges are necessary
+MEDIUM|SUID file found|/usr/lib/polkit-1/polkit-agent-helper-1|Review whether elevated privileges are necessary
+MEDIUM|SUID file found|/usr/lib/openssh/ssh-keysign|Review whether elevated privileges are necessary
+MEDIUM|SUID file found|/usr/lib/landscape/apt-update|Review whether elevated privileges are necessary
+MEDIUM|SGID file found|/usr/sbin/pam_extrausers_chkpwd|Review whether special group privileges are necessary
+MEDIUM|SGID file found|/usr/sbin/unix_chkpwd|Review whether special group privileges are necessary
+MEDIUM|SGID file found|/usr/bin/ssh-agent|Review whether special group privileges are necessary
+MEDIUM|SGID file found|/usr/bin/expiry|Review whether special group privileges are necessary
+MEDIUM|SGID file found|/usr/bin/crontab|Review whether special group privileges are necessary
+MEDIUM|SGID file found|/usr/bin/chage|Review whether special group privileges are necessary
+MEDIUM|SGID file found|/usr/lib/x86_64-linux-gnu/utempter/utempter|Review whether special group privileges are necessary

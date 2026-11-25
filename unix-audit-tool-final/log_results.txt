@@ -1,0 +1,3 @@
+SUDO_FAILURES|Sudo authentication failures|Found 1 failures|Review sudo access
+SUCCESSFUL_SESSIONS|Successful login sessions|Found 40 session openings|Review login activity
+SUDO_FAILURES|Sudo authentication failures|Found 1 sudo authentication failures|Review sudo access and authentication records
